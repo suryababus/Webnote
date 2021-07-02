@@ -1,0 +1,36 @@
+ .noteCard {
+    background-Color: #17232B;
+    width: 92%;
+    color: #8D8D8D;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    padding: 10px 15px 0px 15px;
+    margin: 5px 0px;
+}
+
+.noteTitle{
+    color: #D3D3D3;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.noteText{
+    text-align: justify;
+}
+
+.buttonContainer{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    align-self: center;
+}
+
+.mark-searchkey{
+    font-size: x-large;
+    text-decoration: underline;
+    color:green;
+}

@@ -1,0 +1,17 @@
+.button{
+    color: #D3D3D3;
+    background-color: #0267B8;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-weight: 700;
+    margin:10px;
+    white-space: nowrap;
+}
+
+.deleteButton{
+    color: #E76F51;
+    margin:10px;
+}
+.linkButton *{
+    color:#0267B8;
+}

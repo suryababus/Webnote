@@ -1,0 +1,58 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: #1D2931;
+    padding: 10px 0px;
+    width: 100%;
+    font-weight: 700;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.searchBarContainer{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    background-color: #2f3b43;
+}
+.appIcon{
+    width: 1rem;
+    height: 1rem;
+    padding: 0 2px;
+}
+.sideBarIcon{
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 0 10px;
+}
+.searchIcon{
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 0 10px;
+}
+.searchBar{
+    background-color: #2F3B43;
+    border: none;
+    color: white;
+    padding: 10px;
+    flex: 1;
+    border-left: 1px solid black;
+}
+input.middle:focus {
+    outline-width: 0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+[contenteditable="true"]:focus {
+    outline: none;
+}
+*:focus {
+    outline: none;
+}

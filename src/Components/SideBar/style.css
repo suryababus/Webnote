@@ -1,0 +1,62 @@
+.side-bar-overlay{
+    width:500px;
+    height:600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000040;
+    transition: opacity 0.5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.side-bar{
+    width:200px;
+    height:600px;
+    position: absolute;
+    top: 0;
+    left: -200px;
+    background-color: #2F3B43;
+    transition: left 0.5s;
+}
+
+.options-container{
+    display: flex;
+    flex-direction:column;
+}
+.option{
+    color: white;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    
+}
+.option:hover{
+    background-color: #3a454a;
+}
+.icon{
+    height:1.5rem;
+}
+.icon-container{
+    width: 52px;
+}
+.option-text{
+    /* flex: 1; */
+    padding-left: 5px;
+    font-weight: 700;
+}
+.appIcon{
+    height:2rem;
+    width:2rem;
+    padding: 5px;
+}
+.notes-icon-container{
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    font-weight: 700;
+    color: #8D8D8D;
+    padding: 20px;
+    align-items: center;
+}
